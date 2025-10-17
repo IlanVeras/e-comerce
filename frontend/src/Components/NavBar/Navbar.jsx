@@ -33,7 +33,7 @@ const Navbar = () => {
         </li>
         <li onClick={() => handleMenu("womans")}>
           <Link style={{ textDecoration: "none" }} to="/womans">
-            Woman
+            Women
           </Link>
           {menu === "womans" ? <hr></hr> : <></>}
         </li>
